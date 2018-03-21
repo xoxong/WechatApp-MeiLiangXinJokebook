@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/imgText/imgText",
+    "pages/duanzi/duanzi"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFCC00",
+    "navigationBarTitleText": "梅良心笑话大全",
+    "navigationBarTextStyle":"black"
+  }
+}

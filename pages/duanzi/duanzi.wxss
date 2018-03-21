@@ -1,0 +1,22 @@
+/**index.wxss**/
+page{
+  background-color: #f5f5f5;
+  width: 750rpx;
+  overflow: hidden;
+  font-family: "微软雅黑"
+}
+.xb_boxW{height: auto;}
+.list{margin-left: 3.5%;height: 100%;margin-top: 5rpx;}
+.container .xb_box{width: 92%;height: auto;float: left;border: 1rpx solid gainsboro;margin: 10rpx 0rpx;padding: 15rpx;box-shadow: 0 0 10rpx gainsboro;background-color: white}
+.container .xb_box .xb_title{width: 100%;height: auto;text-align: center;font-size: 30rpx;margin: 10rpx 0rpx;font-weight: bold;color: black}
+.container .xb_box .xb_text{width: 100%;height: auto;text-align: left;font-size: 28rpx;}
+.container .xb_box .xb_btn1{width: 100rpx;height: 40rpx;border-radius: 0rpx;float: left;margin-top: 20rpx;font-size: 23rpx;text-align: left;letter-spacing: 0rpx;line-height: 40rpx;background-color: white;color: gray}
+/*菜单功能-底部多功能选择菜单  */
+.xb_menuBth{width:90rpx;height: 90rpx;position: fixed;bottom: 30rpx;right: 30rpx;box-shadow: 0 0 10rpx gray;border-radius: 50%;z-index: 1000}
+.xb_menu{width: 80%;height:300rpx;position: fixed;left:10%;background-color: #36444E;box-shadow: 0 0 100rpx gray;transition: all 1s;z-index: 999;border: 1px solid white}
+/*菜单功能-顶部三项选择菜单  */
+.xb_menu2{width: 92%;height: auto;float: left;border: 1rpx solid gainsboro;margin: 0rpx 0rpx;padding: 15rpx;box-shadow: 0 0 10rpx ghostwhite;background-color: white}
+.xb_menu2 .xb_menu2Btn1{width: 30%;height: 50rpx;float: left;margin-left: 2.5%;font-size: 25rpx;line-height: 50rpx;}
+/*底部引导*/
+.xb_bottonDes{width: 100%;height: 30rpx;font-size: 24rpx;text-align: center;margin: 10rpx 0rpx;float: left;color: gray}
+.xb_bottonDes1{margin-top: 15rpx;}

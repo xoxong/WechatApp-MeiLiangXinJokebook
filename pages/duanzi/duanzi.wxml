@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+<view class='xb_menu2'>
+  <button class='xb_menu2Btn1' bindtap='xb_menu2Btn1Fun'>文字笑话</button>
+  <button class='xb_menu2Btn1' bindtap='xb_menu2Btn2Fun'>内涵段子</button>
+  <button class='xb_menu2Btn1' bindtap='xb_menu2Btn3Fun'>动态爆笑</button>
+  <text class='xb_bottonDes xb_bottonDes1'>上千条笑话段子，每天更新，上下拉刷新</text>
+</view>
+<scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}rpx;" 
+        class="list" bindscrolltolower="bindDownLoad" bindscroll="scroll" bindscrolltoupper="refresh"> 
+   <block wx:for="{{xb_title}}" wx:key="{{item}}"> 
+      <view class='xb_box'>
+       <view class='xb_text'>"{{item[0]}}"</view>
+       <button class='xb_btn1' data-texts='{{item[0]}}' bindtap='xb_Clipboard'>复制</button>
+      </view>
+   </block> 
+   <text class='xb_bottonDes'>我姓梅，我叫梅良心</text>
+</scroll-view>
+<view class="body-view">
+    <loading hidden="{{hidden}}" bindchange="loadingChange">
+        加载中...
+    </loading>
+</view>
+<!--菜单  -->
+<image class='xb_menuBth' bindtap='xb_menuBthFun' src='img/ico_menu.png'></image>
+<view class='xb_menu' style='bottom:{{style_botton}}rpx;'>
+</view>
+</view>
+
